@@ -17,4 +17,5 @@
 <br>
 
 > <h1>Preview:</h1>
-![preview](https://user-images.githubusercontent.com/89339029/164162354-357eba6c-f4e0-43d5-85c7-4324e4f08de5.png)
+![apreview](https://user-images.githubusercontent.com/89339029/164371730-fca8c24c-b590-4327-84e9-444e6166643a.png)
+
