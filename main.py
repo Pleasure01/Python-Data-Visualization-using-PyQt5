@@ -66,18 +66,20 @@ class MainWindow(QDialog):
             f=''
 
     def savefunction(self):
-        # print(self.valuelist)
-        # print(self.index)
-        # print(self.data)
-        f=self.filename[0]
-        df=pd.read_csv(f)
-        plt.pie(self.valuelist,labels=None)
-        plt.title("COVID-19 Data Analysis" + '\n' + 'Country: ' + df['Country'][self.index])
-        plt.legend(self.data, bbox_to_anchor=(0.67,0.997), loc="upper left")
-        file=QFileDialog.getSaveFileName(widget,"Save the Plot",'default.png','PNG files(*.png)')
-        plt.savefig(file[0])
-        self.save
-        #print(file)
+        try:
+            # print(self.valuelist)
+            # print(self.index)
+            # print(self.data)
+            f=self.filename[0]
+            df=pd.read_csv(f)
+            plt.pie(self.valuelist,labels=None)
+            plt.title("COVID-19 Data Analysis" + '\n' + 'Country: ' + df['Country'][self.index])
+            plt.legend(self.data, bbox_to_anchor=(0.67,0.997), loc="upper left")
+            file=QFileDialog.getSaveFileName(widget,"Save the Plot",'default.png','PNG files(*.png)')
+            plt.savefig(file[0])
+            #print(file)
+        except:
+            f = ''
 
 
 app=QApplication(sys.argv)
