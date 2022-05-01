@@ -89,6 +89,8 @@ widget.addWidget(m)
 widget.setFixedWidth(900)
 widget.setFixedHeight(800)
 widget.show()
-sys.exit(app.exec_())  
+app.exec_()
+os.remove('idea.png')
+sys.exit()  
 
 
