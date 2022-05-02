@@ -90,7 +90,9 @@ widget.setFixedWidth(900)
 widget.setFixedHeight(800)
 widget.show()
 app.exec_()
-os.remove('idea.png')
+if os.path.exists("idea.png") or os.path.exists(".png"):
+  os.remove("idea.png")
+  os.remove(".png")
 sys.exit()  
 
 
