@@ -17,5 +17,5 @@
 <br>
 
 > <h1>Preview:</h1>
-![apreview](https://user-images.githubusercontent.com/89339029/164371730-fca8c24c-b590-4327-84e9-444e6166643a.png)
+![Capture](https://user-images.githubusercontent.com/89339029/167658638-e412ac4e-754b-4dc6-82cb-84bfcc936a5d.PNG)
 
