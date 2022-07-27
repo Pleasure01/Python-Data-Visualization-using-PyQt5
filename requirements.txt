@@ -2,4 +2,4 @@ PyQt5
 pandas
 matplotlib
 sys
-random
+
